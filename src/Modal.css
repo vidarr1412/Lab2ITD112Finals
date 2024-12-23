@@ -1,0 +1,128 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 700px;
+  margin-top: -30px;
+  height: 600px;
+  overflow-y: auto; /* Enable vertical scrolling */
+
+}
+
+.Description{
+  height: 100px;
+  
+}
+textarea{
+  width: 70%;
+  padding: 10px;
+  margin-left: 10px;
+ 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+label{
+  margin-left: 0px;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+
+
+}
+.divider_modal{
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  gap: 15px; /* Adjust the gap between columns */
+}
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+.divider_1{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap:20px; /* Adjust the gap between columns */
+    align-items: center;
+    text-align: center;
+    
+  
+}
+input {
+  width: 70%;
+  padding: 10px;
+  margin-left: 10px;
+ 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button_save, .button_cancel {
+  width: auto;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.button_save {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  height: 50px;
+  margin-top: -180px;
+  margin-right: -100px;
+}
+
+.button_cancel {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: -100px;
+  margin-right: 60px;
+  
+}
+
+button:hover {
+  opacity: 0.9;
+}
+

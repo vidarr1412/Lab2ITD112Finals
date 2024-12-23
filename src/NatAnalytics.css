@@ -1,0 +1,70 @@
+/* Container Styling */
+.nat-analytics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+  }
+  
+  /* Page Title */
+  .page-title {
+    font-size: 34px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Chart Container */
+  .chart-container {
+    width: 80%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+    grid-template-rows: auto auto; /* Two rows for charts */
+    gap: 20px;
+
+}
+.item_1 {
+
+  width: 80%;
+  position: relative;
+  margin-left: 100px; /* Center horizontally */
+  margin-right: auto;
+}
+
+.item_2 {
+
+  width: 80%;
+  position: relative;
+  margin-left: 100px; /* Center horizontally */
+  margin-right: auto;
+}
+  .item_3{
+
+    width: 80%;
+    position: relative;
+    margin-left: 100px; /* Center horizontally */
+    margin-right: auto;
+  }
+  .item_4{
+    /* Parallel Coordinate Plot*/
+    width: 100%;
+    position: relative;
+    margin-left: 250px; /* Center horizontally */
+    margin-right: auto;
+  }
+  /* Loader Styling */
+  .loader {
+    font-size: 18px;
+    font-weight: 600;
+    color: #007BFF;
+    margin-top: 50px;
+  }
+  
